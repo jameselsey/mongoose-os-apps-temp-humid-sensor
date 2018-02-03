@@ -6,7 +6,8 @@
 static Adafruit_BME280 *s_bme = nullptr;
 
 // Couldn't get bme280 example app to work due to arduino compat
-// here's a modified version from 
+// here's a modified version 
+// Credit to nliviu from MOS Forums for help with this 
 // https://forum.mongoose-os.com/discussion/1977/cant-get-bme280-example-app-to-work#latest
 
 void readTimerCB(void *arg)
